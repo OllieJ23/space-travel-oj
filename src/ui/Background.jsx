@@ -52,13 +52,14 @@ function Background() {
   } else if (currentScreenWidth < breakpoints.tablet) {
     currentScreenSize = 'tablet';
   }
+  console.log(backgroundImageURLs?.home?.desktop);
 
   // Render the background image based on the current page and screen size
   return (
     <StyledBg
       src={
-        backgroundImageURLs[currentPage][currentScreenSize] ||
-        backgroundImageURLs?.home?.desktop
+        backgroundImageURLs[currentPage]?.[currentScreenSize] || // Use optional chaining to handle undefined currentPage
+        backgroundImageURLs.home.desktop
       } // Default to home page desktop image if current page/screen size image is not defined
       alt="Background Image of Page"
     />
