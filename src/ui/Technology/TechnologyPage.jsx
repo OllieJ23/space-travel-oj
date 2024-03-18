@@ -89,7 +89,7 @@ function TechnologyPage() {
         <TechnologyNav setTechSlide={setTechSlide} techSlide={techSlide} />
         <TechnologyContent techSlide={techSlide} />
         <TechImg
-          src={`src/assets/technology/image-${formattedName}-portrait.jpg`}
+          src={`/assets/technology/image-${formattedName}-portrait.jpg`}
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}

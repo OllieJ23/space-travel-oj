@@ -50,7 +50,7 @@ const HamburgerMenuOverlay = ({ children }) => {
 
   return (
     <>
-      <Logo src="src\assets\shared\icon-hamburger.svg" onClick={toggleMenu} />
+      <Logo src="\assets\shared\icon-hamburger.svg" onClick={toggleMenu} />
       <Overlay $isOpen={isOpen} onClick={toggleMenu} />
       <MenuContainer $isOpen={isOpen}>{children}</MenuContainer>
     </>

@@ -56,7 +56,7 @@ function DestinationPage() {
           PICK YOUR DESTINATION
         </PageTitle>
         <PlanetImg
-          src={`src/assets/destination/image-${destination.toLowerCase()}.webp`}
+          src={`/assets/destination/image-${destination.toLowerCase()}.webp`}
           alt={`Image of ${destination}`}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}

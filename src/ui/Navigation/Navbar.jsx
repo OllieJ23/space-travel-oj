@@ -87,7 +87,7 @@ function Navbar() {
 
   return (
     <HeaderContainer>
-      <StyledLogo src="src\assets\shared\logo.svg" alt="" />
+      <StyledLogo src="\assets\shared\logo.svg" alt="" />
       <HeaderLine />
       {!isMobile ? (
         <StyledNavBar>

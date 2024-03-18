@@ -98,7 +98,7 @@ function CrewPage() {
         </CrewFlexContainer>
 
         <CrewImg
-          src={`src/assets/crew/image-${formattedName}.webp`}
+          src={`/assets/crew/image-${formattedName}.webp`}
           alt={`Image of ${formattedName}`}
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
