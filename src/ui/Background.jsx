@@ -58,7 +58,7 @@ function Background() {
     <StyledBg
       src={
         backgroundImageURLs[currentPage][currentScreenSize] ||
-        backgroundImageURLs.home.desktop
+        backgroundImageURLs?.home?.desktop
       } // Default to home page desktop image if current page/screen size image is not defined
       alt="Background Image of Page"
     />
